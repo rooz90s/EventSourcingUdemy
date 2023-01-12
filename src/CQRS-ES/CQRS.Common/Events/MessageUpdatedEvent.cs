@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CQRS.Common.Events
 {
-    internal class MessageUpdatedEvent : BaseEvent
+    public class MessageUpdatedEvent : BaseEvent
     {
         public MessageUpdatedEvent() : base(nameof(MessageUpdatedEvent))
         {

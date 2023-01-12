@@ -13,6 +13,6 @@ namespace CQRS.Common.Events
         {
         }
 
-        public string CommentId { get; set; }
+        public Guid CommentId { get; set; }
     }
 }

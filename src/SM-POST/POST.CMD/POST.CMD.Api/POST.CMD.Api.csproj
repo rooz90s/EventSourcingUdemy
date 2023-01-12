@@ -11,10 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CQRS-ES\CQRS.Core\CQRS.Common\CQRS.Common.csproj" />
     <ProjectReference Include="..\..\..\CQRS-ES\CQRS.Core\CQRS.Core.csproj" />
     <ProjectReference Include="..\POST.CMD.Domain\POST.CMD.Domain.csproj" />
-    <ProjectReference Include="..\POST.CMD.Infastruction\POST.CMD.Infastruction.csproj" />
+    <ProjectReference Include="..\POST.CMD.Infastruction\POST.CMD.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
